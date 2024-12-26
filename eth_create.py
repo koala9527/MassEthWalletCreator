@@ -8,7 +8,6 @@
    - 助记词（12 个随机单词）
    - 私钥（hex 格式字符串）
    - 公钥（地址，checksummed 格式）
-4. 支持批量生成多个钱包并将数据输出为 JSON 文件。
 
 输出：
 - 钱包信息以列表形式打印到控制台。
@@ -24,9 +23,7 @@
 依赖：
 - Python 3.7 或更高版本
 - 安装必要库：
-  - bip_utils：实现 BIP-39 和 BIP-44 标准
-  - eth_account：处理以太坊地址和密钥
-    使用 `pip install bip_utils eth_account` 命令安装依赖库。
+  - bip_utils：实现 BIP-39 和 BIP-44 标准的库。
 
 作者：koala9527
 日期：2024.12.26
